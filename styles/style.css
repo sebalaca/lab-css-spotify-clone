@@ -6,3 +6,75 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+body {
+    font-family: 'Signika', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+  }
+
+  .logo-and-nav {
+    position: fixed;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: auto;
+    
+  }
+
+  .logo-and-nav {
+      width: 100%;
+      height: auto;
+  } 
+
+  .logo-s{
+    width: 20%;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+
+  .nav-bar-ul {
+      padding-right: 3%;
+  }
+
+
+
+
+
