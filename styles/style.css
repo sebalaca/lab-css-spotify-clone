@@ -7,23 +7,116 @@ White: #FFF
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&family=Signika:wght@300&display=swap');
 body {
-    font-family: 'Signika', sans-serif;
+  font-family: "Signika", sans-serif;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    height: auto;
-    width: auto;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 100%;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.mainHeader {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+}
+
+.logoLeft {
+  height: 3.5rem;
+  margin-left: 1rem;
+}
+
+.navbarRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+}
+
+.navbar-item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.section1 {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.img-back {
+  width: 100%;
+}
+
+.textMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 25%;
+  position: absolute;
+  top: 22.5rem;
+  left: 25rem;
+}
+
+.bi-h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 4rem;
+  font-weight: bolder;
+
+}
+
+.bi-p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+
+
+
+/* .background-image {
+    background: url('../images/landing.jpg') center no-repeat;
+    background-size: cover;
+    font-weight:bolder;
+    font-size: 300%;
+    color: white;
+    text-align: center;
+    padding: 250px;
+  } */
+
+/* .bi-h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-  header {
-    width: 100%;
-    display: flex;
-  }
 
   .logo-and-nav {
     position: fixed;
@@ -37,6 +130,8 @@ html, body {
   }
 
   .logo-and-nav {
+      display: flex;
+      justify-content: space-around;
       width: 100%;
       height: auto;
   } 
@@ -46,6 +141,7 @@ html, body {
     padding-left: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
+    padding-right: 1%;
   }
 
   nav {
@@ -70,11 +166,10 @@ html, body {
 
   }
 
-  .nav-bar-ul {
+  .nav-bar-item {
+      display: flex;
+      justify-content: space-between;
       padding-right: 3%;
-  }
-
-
-
-
-
+      padding-left: 10%;
+      font-size: 1.5em;
+  } */
