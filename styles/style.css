@@ -100,8 +100,94 @@ a {
   margin: 0 auto;
 }
 
+.section2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
 
+.whats-on-spotify-tittle {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(2, 2, 2);
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline green;
+  line-height: 1.5;
+  font-weight: bolder;
+}
 
+.allCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+    text-align: center;
+}
+
+.cardsImg {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.title-1 {
+  text-align: center;
+  color: green;
+  font-size: 2.5rem;
+}
+
+.title-1 + p {
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  text-justify: auto;
+}
+
+.section3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  width: 100%;
+  background-color: rgb(99, 164, 2);  
+}
+
+.contain {
+  width: auto; 
+  max-height: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.text-left {
+  text-align: left;
+  color: white;
+  font-size: auto;
+  text-justify: auto;
+}
+.title-text {
+  text-decoration: underline rgb(255, 255, 255);
+  line-height: 1.5;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.h3Title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.pSection3 {
+  font-weight: normal;
+  font-size: 1rem;
+}
 
 /* .background-image {
     background: url('../images/landing.jpg') center no-repeat;
